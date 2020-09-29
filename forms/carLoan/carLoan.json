@@ -14,7 +14,7 @@
       "!type": "External",
       "file": [
         "forms",
-        "Loans",
+        "carLoan",
         "Elements",
         "inptPrinciple.json"
       ]
@@ -23,16 +23,7 @@
       "!type": "External",
       "file": [
         "forms",
-        "Loans",
-        "Elements",
-        "slctCarHome.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Loans",
+        "carLoan",
         "Elements",
         "inptMnInterest.json"
       ]
@@ -41,7 +32,7 @@
       "!type": "External",
       "file": [
         "forms",
-        "Loans",
+        "carLoan",
         "Elements",
         "inptMonths.json"
       ]
@@ -50,7 +41,7 @@
       "!type": "External",
       "file": [
         "forms",
-        "Loans",
+        "carLoan",
         "Elements",
         "btnEnter.json"
       ]
@@ -59,7 +50,7 @@
       "!type": "External",
       "file": [
         "forms",
-        "Loans",
+        "carLoan",
         "Elements",
         "lblPaymentMessage.json"
       ]
@@ -71,7 +62,7 @@
   "expanded_pmp": null,
   "fullScreen": "true",
   "height": 460,
-  "id": "Loans",
+  "id": "carLoan",
   "language": "JavaScript",
   "left": "0",
   "locked": false,

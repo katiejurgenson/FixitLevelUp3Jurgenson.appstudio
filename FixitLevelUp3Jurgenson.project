@@ -23,8 +23,16 @@
           "!type": "External",
           "file": [
             "forms",
-            "Loans",
-            "Loans.json"
+            "carLoan",
+            "carLoan.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "Start",
+            "Start.json"
           ]
         }
       ],
@@ -47,7 +55,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "Loans",
+      "firstform": "Start",
       "fontFamily": "system",
       "homescreenTitle": "",
       "icon": "nsb/images/192.png",
