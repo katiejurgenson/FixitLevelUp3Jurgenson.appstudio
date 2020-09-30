@@ -1,28 +1,29 @@
-// Start here. 
-
-/*
 
 btnEnter.onclick=function(){
-  let principleAmt = Number(inptPrinciple.value)
-  let mnthInterest = Number(inptMnInterest.value)
-  let mnthTotal = Number(inptMonths.value)
+  let carPrinciple = inptPrinciple.value
+    let carPrincipleAmt = Number(carPrinciple.replace(",", ""));
+  let carInterest = Number(inptMnInterest.value)
+    let carMnthInterest = carInterest/12/100
+  let carMnthTotal = Number(inptMonths.value)
+  
+    function carLoanPayment (principle, interest, months) {
+    return (principle * (interest * ((1 + interest)**months)) / (((1 + interest)**months)-1))
+  }
+
+  let carMnthPymt = carLoanPayment(carPrincipleAmt, carMnthInterest, carMnthTotal);
+  
+  let carMnthPymtRnd = carMnthPymt.toPrecision(5);
+  
+  lblPaymentMessage.value = `A car loan for $${carPrinciple} over ${carMnthTotal} months at ${carInterest}% interest would have a monthly payment of $${carMnthPymtRnd}.`
 }
 
-let userNum1 = Number(prompt("Enter a number:"));
-let userNum2 = Number(prompt("Enter a second number:")); 
-
+/*
 function carLoanPayment (principle, interest, months) {
   return principle * (interest * ((1 + interest)**months)) / (((1 + interest)**months)-1)
 }
 
-let summedNumbers = calculate(userNum1, userNum2);
-
-function calculate (num1, num2) {
-  return num1 + num2; 
-}
-
+let carMnthPymt = carLoanPayment(carPrincipleAmt, carMnthInterest, carMnthTotal);
+*/
 
 // Label
-// lblPaymentMessage.value = `A TBD loan for ${principleAmt} over ${mnthTotal} at ${mnthInterest} interest would have a monthly payment of TBD.`
-
-*/
+// lblPaymentMessage.value = `A car loan for ${carPrincipleAmt} over ${carMnthTotal} months at ${carInterest} interest would have a monthly payment of ${carMnthPymt}.`
