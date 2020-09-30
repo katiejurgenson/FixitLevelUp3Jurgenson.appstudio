@@ -5,6 +5,6 @@ btnGo.onclick=function(){
   if (changeValue == 'selectCar') {
     ChangeForm(carLoan);
   } else {
-    console.log(changeValue) // ChangeForm(homeLoan)
+    ChangeForm(homeLoan)
   }
 }
