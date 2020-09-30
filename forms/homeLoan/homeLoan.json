@@ -34,15 +34,6 @@
         "forms",
         "homeLoan",
         "Elements",
-        "btnEnterH.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "homeLoan",
-        "Elements",
         "lblPaymentMessageH.json"
       ]
     },
@@ -53,6 +44,15 @@
         "homeLoan",
         "Elements",
         "slctHomeTerm.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "homeLoan",
+        "Elements",
+        "btnSubmitH.json"
       ]
     }
   ],

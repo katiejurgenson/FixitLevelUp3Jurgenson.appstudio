@@ -1,5 +1,5 @@
 
-btnEnterH.onclick=function(){
+btnSubmitH.onclick=function(){
   let homePrinciple = inptPrincipleH.value
     let homePrincipleAmt = Number(homePrinciple.replace(",", ""));
   let homeInterest = Number(inptMnInterestH.value)
@@ -10,9 +10,9 @@ btnEnterH.onclick=function(){
     return (principle * (interest * ((1 + interest)**months)) / (((1 + interest)**months)-1))
   }
 
-  let homeMnthPymt = homeLoanPayment(homePrincipleAmt, homeMnthInterest, homeMnthTotal);
+  let homeMnthPymt = homeLoanPayment(homePrincipleAmt, homeMnthInterest, homeTermMnth);
   
-  let homeMnthPymtRnd = homeMnthPymt.toPrecision(7);
+  let homeMnthPymtRnd = homeMnthPymt.toPrecision(6);
   
-  lblPaymentMessage.value = `A home loan for $${homePrinciple} over ${slctHomeTerm.value} years at ${homeInterest}% interest would have a monthly payment of $${homeMnthPymtRnd}.`
+  lblPaymentMessageH.value = `A home loan for $${homePrinciple} over ${slctHomeTerm.value} years at ${homeInterest}% interest would have a monthly payment of $${homeMnthPymtRnd}.`
 }
