@@ -16,3 +16,13 @@ btnSubmitH.onclick=function(){
   
   lblPaymentMessageH.value = `A home loan for $${homePrinciple} over ${slctHomeTerm.value} years at ${homeInterest}% interest would have a monthly payment of $${homeMnthPymtRnd}.`
 }
+btnNewHome.onclick=function(){
+  inptPrincipleH.value = ""
+  inptMnInterestH.value = ""
+  slctHomeTerm.value = ""
+  lblPaymentMessageH.value = ""
+}
+
+btnBackH.onclick=function(){
+  ChangeForm(Start);
+}

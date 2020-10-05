@@ -54,6 +54,24 @@
         "Elements",
         "btnSubmitH.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "homeLoan",
+        "Elements",
+        "btnNewHome.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "homeLoan",
+        "Elements",
+        "btnBackH.json"
+      ]
     }
   ],
   "class": "",

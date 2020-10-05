@@ -54,6 +54,24 @@
         "Elements",
         "lblPaymentMessage.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "carLoan",
+        "Elements",
+        "btnNewCar.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "carLoan",
+        "Elements",
+        "btnBack.json"
+      ]
     }
   ],
   "class": "",
