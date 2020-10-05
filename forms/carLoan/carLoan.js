@@ -16,3 +16,13 @@ btnEnter.onclick=function(){
   
   lblPaymentMessage.value = `A car loan for $${carPrinciple} over ${carMnthTotal} months at ${carInterest}% interest would have a monthly payment of $${carMnthPymtRnd}.`
 }
+btnNewCar.onclick=function(){
+  inptPrinciple.value = ""
+  inptMnInterest.value = ""
+  inptMonths.value = ""
+  lblPaymentMessage.value = ""
+}
+
+btnBack.onclick=function(){
+  ChangeForm(Start);
+}
